@@ -106,6 +106,7 @@ def seed_sample_data() -> None:
         Book(3, "Tư Duy Nhanh Và Chậm", "Daniel Kahneman", 2011, "Tâm lý học", 120000, 20),
         Book(4, "Sapiens: Lược Sử Loài Người", "Yuval Noah Harari", 2011, "Lịch sử", 145000, 15),
         Book(5, "Clean Code", "Robert C. Martin", 2008, "Lập trình", 250000, 10),
+        Book(6,"Lập trình Python để mọi người", "Al Swweigart", 2015, 'Lập trình',180000,25),
     ]
     save_books(samples)
     print("  ℹ  Đã nạp 5 cuốn sách mẫu vào hệ thống.\n")
@@ -144,3 +145,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+#Toi la phong 
