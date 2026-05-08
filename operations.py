@@ -181,3 +181,5 @@ def _print_table(books: list[Book]) -> None:
         )
         print(row)
     print(sep)
+
+
